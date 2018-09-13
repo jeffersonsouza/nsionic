@@ -14,3 +14,37 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+body {
+  user-select: auto !important
+}
+
+ion-content {
+  background: #fff !important;
+}
+
+ion-item {
+  background: color($colors, cinza) !important;
+}
+
+ion-header {
+  ion-navbar {
+    background: color($colors, nasajon) !important;
+  }
+}
+
+ion-menu {
+  ion-content, ion-footer {
+    background: color($colors, nasajon) !important;
+
+    .item, ion-item {
+      background: transparent !important;
+      color: #fff;
+    }
+  }
+}
+
+.menu-container {
+  background-color: color($colors, nasajon);
+}

@@ -38,8 +38,14 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
+  nasajon:    #005167,
+  cinza:      #f0f0f1,
+  laranja:    #f39a26,
+  cinza-contraste:      #ccc,
 );
+
+$split-pane-side-background: color($colors, nasajon) !important;
 
 
 // App iOS Variables
